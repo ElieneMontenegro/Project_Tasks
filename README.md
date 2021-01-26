@@ -1,4 +1,6 @@
-# Studying_TypeORM
+# Project_Tasks
+
+## Studying_TypeORM
 
 - install typeorm globally
   sudo yarn global add typeorm
@@ -35,3 +37,5 @@ Começando o projeto:
 
 - Em routes, passe a rota dos seus controllers
   exemplo `routes.get("/tasks", getTasks);`
+
+## Studying_React
