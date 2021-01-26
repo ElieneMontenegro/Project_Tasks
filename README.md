@@ -16,13 +16,13 @@
 Começando o projeto:
 
 - Routes
-  yarn add @types/express -D
+  `yarn add @types/express -D`
 
 - index
   faz as configurações gerais do projeto
 
 - instalar o nodemoon para não ter que ficar restartando o servidor
-  yarn add nodemon -D
+  `yarn add nodemon -D`
 
   cria um arquivo nodemon.json dentro da pasta do projeto e coloca as configs.
 
@@ -31,7 +31,7 @@ Começando o projeto:
 
 - rode o banco para estabelecer conexão
   se tudo estiver dando errado kkkk apague o banco, rode sudo pkill postgres
-  rode docker run --name db_tasks -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+  rode `docker run --name db_tasks -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres`
 
 - crie o controller
 
@@ -39,3 +39,10 @@ Começando o projeto:
   exemplo `routes.get("/tasks", getTasks);`
 
 ## Studying_React
+
+- iniciar projeto com react
+  `create-react-app tasks_frontend --template=typescript`
+
+- instalar dependências 
+  `yarn add react-bootstrap bootstrap axios react-router-dom`
+  `yarn add @types/react-router-dom -D`
